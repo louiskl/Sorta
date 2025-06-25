@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sorta - Your Notion Companion
 
-## Getting Started
+Sorta is a mobile application designed to enhance your productivity by integrating seamlessly with Notion. It allows you to manage your notes, tasks, and categories on the go, with additional features like widgets and notifications.
 
-First, run the development server:
+## Features
+- **Notion Integration**: Connect your Notion account to sync notes and tasks.
+- **Widgets**: Add widgets to your home screen for quick access to your notes.
+- **Notifications**: Get reminders for your tasks and updates from Notion.
+- **Offline Mode**: Access your notes even without an internet connection.
+- **Customizable Themes**: Switch between light and dark modes.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## How to Use
+1. **Install the App**:
+   - Download the app from the [Google Play Store](#) or [Apple App Store](#) (links coming soon).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Sign Up or Log In**:
+   - Create an account or log in using your email and password.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. **Connect to Notion**:
+   - Go to the settings screen and connect your Notion account by providing your API key and database ID.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. **Manage Notes and Tasks**:
+   - Use the home screen to view, edit, and organize your notes and tasks.
 
-## Learn More
+5. **Set Up Widgets**:
+   - Add widgets to your home screen for quick access to your most important notes.
 
-To learn more about Next.js, take a look at the following resources:
+6. **Enable Notifications**:
+   - Allow notifications to receive reminders and updates.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Development
+This project is built using:
+- **React Native**: For cross-platform mobile development.
+- **Expo**: For rapid development and testing.
+- **Supabase**: For authentication and backend services.
+- **Notion API**: For integration with Notion.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contributing
+We welcome contributions! Please fork the repository and submit a pull request with your changes.
 
-## Deploy on Vercel
+## License
+This project is licensed under the MIT License.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contact
+For questions or support, please contact [louiskl](https://github.com/louiskl).
