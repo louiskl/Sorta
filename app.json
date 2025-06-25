@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "Sorta",
+    "slug": "sorta-notion-companion",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/adaptive-icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourname.sorta",
+      "buildNumber": "1",
+      "infoPlist": {
+        "UIBackgroundModes": ["background-processing", "background-fetch"],
+        "NSUserNotificationsUsageDescription": "Diese App verwendet Benachrichtigungen für Erinnerungen an deine Notizen.",
+        "CFBundleURLTypes": [
+          {
+            "CFBundleURLName": "sorta-deep-link",
+            "CFBundleURLSchemes": ["sorta"]
+          }
+        ]
+      },
+      "associatedDomains": ["applinks:sorta-app.com"],
+      "entitlements": {
+        "com.apple.security.application-groups": ["group.com.yourname.sorta"]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.yourname.sorta"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+"expo-notifications",
+[
+  "expo-build-properties",
+  {
+    "ios": {
+      "deploymentTarget": "15.1"
+    }
+  }
+]
+    ]
+  }
+}
